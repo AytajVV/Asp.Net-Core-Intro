@@ -1,0 +1,15 @@
+﻿@using ASP_intro.Models
+@using ASP_intro.ViewModels
+@model HomeVM
+
+@foreach (var item in Model.Students)
+{
+    <p>Id=@item.Id</p>
+    <p>Student=@item.Name</p>
+    <p>GroupID=@item.GroupID</p>
+    <hr />
+
+}
+
+
+<h1>Student/Index/View</h1>

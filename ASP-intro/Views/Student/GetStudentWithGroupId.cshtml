@@ -1,0 +1,21 @@
+﻿@using ASP_intro.Models
+@using ASP_intro.ViewModels
+@model HomeVM
+
+
+
+@foreach (var item in Model.Groups)
+{
+    foreach (var stu in Model.Students)
+    {
+        if (item.Id == stu.GroupID)
+        {
+            <p>Student:@stu.Name</p>
+            <p>Group:@item.Name</p>
+        }
+    }
+}
+
+
+
+<h1>Student/GetStudentWithGroupId/View</h1>

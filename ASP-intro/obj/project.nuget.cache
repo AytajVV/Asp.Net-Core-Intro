@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DY2MIaDKZSqoQBUCx+aXwR61WnbMBUOkl2uEoVsnbWU3IHYcIYqbmbxUa8V3DCvzkkHCsa/H0GT2HGuD2SHiag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Orbit Computers\\Desktop\\ASP-intro\\ASP-intro\\ASP-intro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Orbit Computers\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
+  ],
+  "logs": []
+}
